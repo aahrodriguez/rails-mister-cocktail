@@ -1,0 +1,2 @@
+class Ingregient < ApplicationRecord
+end
