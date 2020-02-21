@@ -1,2 +1,0 @@
-class Ingregient < ApplicationRecord
-end
