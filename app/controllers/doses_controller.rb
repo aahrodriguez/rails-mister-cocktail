@@ -20,11 +20,11 @@ class DosesController < ApplicationController
     redirect_to cocktails_path
   end
 
-  def new
-    @cocktail = Cocktail.find(params[:cocktail_id])
-    @dose = Dose.new
-    @dose.cocktail = @cocktail
-  end
+  # def new
+  #   @cocktail = Cocktail.find(params[:cocktail_id])
+  #   @dose = Dose.new
+  #   @dose.cocktail = @cocktail
+  # end
 
   private
 
